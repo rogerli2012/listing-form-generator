@@ -28,6 +28,31 @@
   color: #61dafb;
 }
 
+form {
+  margin-top: 50px;
+}
+
+.input {
+  margin-bottom: 30px;
+}
+
+.select {
+  margin-bottom: 30px;
+}
+
+#input {
+  width: 200px;
+}
+
+#select {
+  height: 30px;
+  width: 200px;
+}
+
+#button {
+  width: 200px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
