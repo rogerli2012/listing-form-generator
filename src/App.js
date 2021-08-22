@@ -5,10 +5,15 @@ import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import { Helmet } from "react-helmet";
 
 function App() {
   return (
     <div className="App">
+      <Helmet>
+        <title>Listing Form Generator</title>
+      </Helmet>
+
       <Navbar bg="primary" variant="dark">
         <Container>
           <Navbar.Brand href="#home">Listing Form Generator</Navbar.Brand>
