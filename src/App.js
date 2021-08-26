@@ -24,7 +24,7 @@ function App() {
           </Nav>
         </Container>
       </Navbar>
-      <form action="https://tinyurl.com/listing-form-demo">
+      <form action="https://tinyurl.com/listing-form-demo-1">
         <div className="input">
           <input
             id="input"
